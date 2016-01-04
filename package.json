@@ -1,0 +1,17 @@
+{
+  "name": "small-world-generator",
+  "version": "0.1.0",
+  "description": "A random map generator for the Days of Wonder board game Small World Realms",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.8.10",
+    "gulp-jasmine": "^1.0.1",
+    "gulp-notify": "^2.1.0",
+    "jasmine": "^2.1.1"
+  },
+  "scripts": {
+    "test": "jasmine"
+  },
+  "author": "",
+  "license": "ISC"
+}
