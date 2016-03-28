@@ -2,16 +2,25 @@
   "name": "small-world-generator",
   "version": "0.1.0",
   "description": "A random map generator for the Days of Wonder board game Small World Realms",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Glutnix/small-world-realms-generator"
+  },
   "dependencies": {},
   "devDependencies": {
-    "gulp": "^3.8.10",
-    "gulp-jasmine": "^1.0.1",
-    "gulp-notify": "^2.1.0",
-    "jasmine": "^2.1.1"
+    "jasmine": "^2.4.1",
+    "npm-watch": "^0.1.1"
   },
   "scripts": {
-    "test": "jasmine"
+    "test": "jasmine",
+    "watch": "npm-watch"
   },
-  "author": "",
-  "license": "ISC"
+  "watch": {
+    "test": {
+      "patterns": ["src", "spec"],
+      "extensions": "js"
+    }
+  },
+  "author": "Brett Taylor <brett@webfroot.co.nz>",
+  "license": "MIT"
 }
