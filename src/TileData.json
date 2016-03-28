@@ -1,4 +1,4 @@
-var TileData = [
+[
   {
     "name": "A",
     "smallworld": [
@@ -337,6 +337,4 @@ var TileData = [
       { "type": "water" }
     ]
   }
-];
-
-module.exports = TileData;
+]

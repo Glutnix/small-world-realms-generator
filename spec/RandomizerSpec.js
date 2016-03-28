@@ -1,12 +1,13 @@
-describe("Randomizer", function () {
-  var Randomizer = require('../src/Randomizer');
-  var randomizer;
+const Randomizer = require('../src/Randomizer');
 
-  beforeEach(function() {
+describe('Randomizer', () => {
+  let randomizer;
+
+  beforeEach(() => {
     randomizer = new Randomizer();
   });
 
-  it("can be instantiated", function() {
+  it('can be instantiated', () => {
     expect(randomizer).toBeDefined();
     expect(randomizer).toEqual(jasmine.any(Randomizer));
   });

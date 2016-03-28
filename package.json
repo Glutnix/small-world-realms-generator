@@ -8,7 +8,10 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "jasmine": "^2.4.1",
+    "eslint": "^2.5.1",
+    "eslint-config-airbnb": "^6.2.0",
+    "eslint-plugin-react": "^4.2.3",
+    "jasmine-es6": "^0.1.7",
     "npm-watch": "^0.1.1"
   },
   "scripts": {
@@ -17,7 +20,10 @@
   },
   "watch": {
     "test": {
-      "patterns": ["src", "spec"],
+      "patterns": [
+        "src",
+        "spec"
+      ],
       "extensions": "js"
     }
   },
